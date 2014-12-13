@@ -1,0 +1,39 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+__ds18b20_scratch_pad                                             0x024D       9
+RomCode                                                           0x0256      18
+buffer                                                            0x0268      16
+uoz_i                                                             0x0278       2
+zn1                                                               0x027A       2
+zn2                                                               0x027C       2
+sek                                                               0x027E       2
+ob_min                                                            0x0280       2
+temp1                                                             0x0282       2
+temp2                                                             0x0284       2
+temp_buf                                                          0x0286       2
+i                                                                 0x0288       2
+kk                                                                0x028A       2
+temp_ugly                                                         0x028C      30
+_base_y                                                           0x02AA       4
+_lcd_y                                                            0x02AE       1
+_lcd_maxx                                                         0x02AF       1
+_seed                                                             0x02B0       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+temp_f                                                            0x0000       2
+f                                                                 0x0002       2
+percent                                                           0x0004      64
+prer_ugly                                                         0x0044      16
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+devices                                                           R5           1
+oper                                                              R6,R7        2
+yes                                                               R8,R9        2
+oboroty                                                           R10,R11      2
+ob_y                                                              R12,R13      2
+_lcd_x                                                            R4           1
